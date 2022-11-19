@@ -2,8 +2,8 @@ const links = [ "Merge Sort"," Quick Sort", "Bubble Sort", "Insert Sort", "Radix
 
 export default function Link() {
   return (
-    links.map((link) => {
-      return <a href="#">{link}</a>
+    links.map((link, idx) => {
+      return <a href="#" key={idx}>{link}</a>
     })
   )
 }

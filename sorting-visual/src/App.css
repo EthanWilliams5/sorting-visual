@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.displayArea {
+  height: 650px;
+  width: 100%;
+  margin: 25px;
+  position: relative;
+}
+
+.numBar {
+  padding-top: 100px;
+  width: 13px;
+  background-color: #61dafb;
+  display: inline-block;
+  margin: 0px 2px;
+}
